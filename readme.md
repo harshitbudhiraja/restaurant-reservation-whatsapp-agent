@@ -21,6 +21,11 @@ The system uses a **multi-agent orchestration pattern**:
 | **Conversation State**        | (`utils/conversation_state.py`)<br>Redis-backed multi-turn state         |
 
 ---
+## High Level System Flow Diagram
+
+![WhatsApp Chat Screenshot](assets/hld.png) <u>HLD Diagram </u>
+
+---
 
 ## 🛠️ Tech Stack
 
