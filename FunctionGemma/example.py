@@ -1,13 +1,14 @@
 from local_lm import (
-    initialize_model,
     generate_with_functiongemma,
     AVAILABLE_FUNCTIONS
 )
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
 def main():
     
     print("\nLoading FunctionGemma model...")
-    tokenizer, model = initialize_model()
+    tokenizer = AutoTokenizer.from_pretrained("google/functiongemma-270m-it")
+    model = AutoModelForCausalLM.from_pretrained("google/functiongemma-270m-it")
     
     user_query = "I want to book a table for 4 people tomorrow at 7pm at Connaught Place"
     
