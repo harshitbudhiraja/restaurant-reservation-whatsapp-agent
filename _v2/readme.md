@@ -1,5 +1,5 @@
-### Reservation system using Locally Hosted, tool Calling SLM  
-- Using FunctionGemma , a 270M Model instruction tuned on tool calling.
+### Reservation system using tool Calling with Qwen, 
+and not Prompt Injection of Functions  
 
 - This approach uses streamlit 
 
