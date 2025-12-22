@@ -1,4 +1,4 @@
-### Reservation system using tool Calling with Qwen, 
+### Reservation system using tool Calling with Qwen 8B, 
 and not Prompt Injection of Functions  
 
 - This approach uses streamlit 
